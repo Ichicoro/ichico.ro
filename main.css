@@ -1,0 +1,100 @@
+body {
+    /*background-color: #282828;*/
+    font-family: "Comfortaa","Gotham Rounded";
+    color: #F3F3F3;
+    background-color: #1D1D1D;
+    margin: 0px;
+}
+
+a, a:visited, a:hover {
+    text-decoration: none;
+    transition: 1s;
+    color:  #F3F3F3;
+}
+
+a:hover {
+    color: #AAA;
+    transition: 1s
+}
+
+.centraldiv {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    line-height: 1rem;
+    width: 100vw;
+}
+
+.darker {
+    color: #2a2a2a;
+}
+
+.invisible {
+    color: rgba(0,0,0,0);
+}
+
+#centraldiv {
+    /*color:  #EEE;*/
+}
+
+#spanbox {
+    display: block;
+    height: 100%;
+}
+
+.centralh1 {
+    /*font-size: 8rem;*/
+    text-transform: uppercase;
+    letter-spacing: 1.75rem;
+    text-indent: 1.75rem;
+    font-weight: normal;
+}
+
+@media (min-width: 1235px) {
+    .centralh1 {
+        font-size: 7rem;
+    }
+
+    .h3h3 {
+        font-size: 1.17rem;
+        transition: none;
+    }
+}
+
+@media (max-width: 1235px) and (min-width: 675px) {
+    .centralh1 {
+        font-size: 3rem;
+    }
+
+    .h3h3 {
+        font-size: 1rem;
+        transition: none;
+    }
+}
+
+@media (max-width: 675px) and (min-width: 520px) {
+    .centralh1 {
+        font-size: 1.5rem;
+    }
+
+    .h3h3 {
+        font-size: 0.9rem;
+        transition: none;
+    }
+}
+
+@media (max-width: 520px) {
+    .centralh1 {
+        font-size: 1.5rem;
+        letter-spacing: 1.25rem;
+        text-indent: 1.25rem;
+    }
+
+    .h3h3 {
+        font-size: 0.9rem;
+        transition: none;
+    }
+}
+
