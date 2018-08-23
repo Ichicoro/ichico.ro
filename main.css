@@ -50,7 +50,9 @@ a:hover {
     letter-spacing: 1.75rem;
     text-indent: 1.75rem;
     font-weight: normal;
+    animation: 1s;
 }
+
 
 @media (min-width: 1235px) {
     .centralh1 {
@@ -66,6 +68,8 @@ a:hover {
 @media (max-width: 1235px) and (min-width: 675px) {
     .centralh1 {
         font-size: 3rem;
+        letter-spacing: 1.25rem;
+        text-indent: 1.25rem;
     }
 
     .h3h3 {
@@ -73,10 +77,25 @@ a:hover {
         transition: none;
     }
 }
-
+/*
 @media (max-width: 675px) and (min-width: 520px) {
     .centralh1 {
         font-size: 1.5rem;
+        letter-spacing: 1.15rem;
+        text-indent: 1.15rem;
+    }
+
+    .h3h3 {
+        font-size: 0.9rem;
+        transition: none;
+    }
+}*/
+
+@media (max-width: 675px) {
+    .centralh1 {
+        font-size: 1.5rem;
+        letter-spacing: 0.85rem;
+        text-indent: 0.85rem;
     }
 
     .h3h3 {
@@ -85,16 +104,16 @@ a:hover {
     }
 }
 
-@media (max-width: 520px) {
-    .centralh1 {
-        font-size: 1.5rem;
-        letter-spacing: 1.25rem;
-        text-indent: 1.25rem;
-    }
 
+@media (orientation: portrait) {
+    .links {
+        display: block;
+    }
+    .ticks {
+        display: none;
+    }
     .h3h3 {
-        font-size: 0.9rem;
-        transition: none;
+        line-height: 2rem
     }
 }
 
